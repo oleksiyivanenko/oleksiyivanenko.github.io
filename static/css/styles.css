@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+* {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+a{
+    color: rgb(0, 138, 206);
+}
+a:hover{
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 1.375rem 0;
+    vertical-align: top;
+}
+
+#photo {
+    width: 172px;
+}
+
+#copyright {
+    font-size: 0.875rem;
+}
+
+.icon {
+    width: 40px;
+}
