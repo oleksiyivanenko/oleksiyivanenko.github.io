@@ -27,7 +27,7 @@ p {
     width: 190px;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
+@media only screen and (min-width: 33.75em) and (min-height:650px) {  /* 540px */
     .container {
         position: absolute;
         top: 50%;
@@ -35,4 +35,4 @@ p {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
-  }
+}
