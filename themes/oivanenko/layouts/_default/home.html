@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-12">
+        <h1>Oleksiy Ivanenko</h1>
+        <div id="social-links">
+            <a href="https://www.linkedin.com/in/oleksiyivanenko">LinkedIn</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://mastodon.social/@oivanenko">Mastodon</a>&nbsp;&nbsp;&nbsp;
+            <a href="mailto:oleksiy.ivanenko+aboutme@gmail.com">Email</a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-8">
+        <p>Ukrainian, pretending to be a security engineer.</p>
+        <p>Keep calm and <a href="https://supportukrainenow.org/">support Ukraine</a>.</p>
+    </div>
+    <div class="col-4">
+      {{- with resources.Get "img/ava2.jpg" }}
+        <img id="photo" class="center" src="{{ .RelPermalink }}" alt="My photo">
+      {{- end }}
+    </div>
+</div>
+{{ end }}

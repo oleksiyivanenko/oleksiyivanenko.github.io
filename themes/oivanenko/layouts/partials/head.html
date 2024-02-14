@@ -1,0 +1,13 @@
+
+{{ partialCached "head/css.html" . }}
+<!-- {{ partialCached "head/js.html" . }} -->
+
+<meta charset="utf-8">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<meta name="description" content="Oleksiy Ivanenko">
+<meta name="author" content="Oleksiy Ivanenko">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+{{- with resources.Get "img/favicon.png" }}
+  <link rel="icon" type="image/png" href="{{ .RelPermalink }}">
+{{- end }}

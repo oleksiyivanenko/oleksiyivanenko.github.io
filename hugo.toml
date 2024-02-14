@@ -1,0 +1,5 @@
+baseURL = 'https://oleksiyivanenko.com/'
+disableKinds = ["taxonomy"]
+languageCode = 'en-us'
+title = 'Oleksiy Ivanenko'
+theme = 'oivanenko'
